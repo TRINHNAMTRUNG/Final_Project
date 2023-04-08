@@ -196,6 +196,7 @@
     font-weight: 600;
     border: 1.4px solid white;
     border-radius: 20px;
+    position: relative;
 }
 
 .person i {
@@ -212,7 +213,36 @@
     border-radius: 6px;
     display: none;
 }
-
+.person .side_bar{
+    position: absolute;
+    left: -20px;
+    bottom: -329px;
+    width: 212px;
+    display: none;
+}
+.side_bar .wrap_side_bar{
+    width: 100%;
+    border-radius: 6px;
+    padding: 6px 6px;
+    display: flex;
+    flex-direction: column;
+    background-color: #282828;
+    font-weight: 500;
+    color: white;
+}
+.wrap_side_bar .element_side_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 15px;
+}
+.element_side_bar i{
+    font-size: 15px;
+}
+.element_side_bar:hover{
+    background-color: #434242;
+    border-radius: 5px;
+}
 .upgrade:hover {
     cursor: pointer;
     transform: scale(1.04);
@@ -225,9 +255,6 @@
     background-color: #252525;
 }
 
-.person:hover .name_account {
-    display: block;
-}
 
 .wrap_icon:hover {
     cursor: not-allowed;

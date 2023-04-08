@@ -69,11 +69,11 @@
     text-decoration: none;
 }
 
-.list_element .element_menu:first-child i {
+.list_element .element_menu:nth-child(2) i {
     color: white;
 }
 
-.list_element .element_menu:first-child span {
+.list_element .element_menu:nth-child(2) span {
     color: white;
 }
 
@@ -138,7 +138,7 @@
 
 .song_side .header_song_side {
     z-index: 1;
-    background-image: linear-gradient(-90deg, #1FDF64, #acebdf);
+    background-image: linear-gradient(-90deg, #509AF5, #AF2896);
     width: 100%;
     position: sticky;
     top: 0px;
@@ -176,7 +176,7 @@
 
 .right_header .upgrade {
     padding: 8px 20px;
-    border: 1.4px solid #727171d7;
+    border: 2px solid #ffffffd7;
     border-radius: 20px;
     color: black;
     font-size: 14px;
@@ -196,6 +196,7 @@
     font-weight: 600;
     border: 1.4px solid white;
     border-radius: 20px;
+    position: relative;
 }
 
 .person i {
@@ -212,7 +213,41 @@
     border-radius: 6px;
     display: none;
 }
-
+.person .side_bar{
+    position: absolute;
+    left: -20px;
+    bottom: -329px;
+    width: 212px;
+    display: none;
+}
+.side_bar .wrap_side_bar{
+    width: 100%;
+    border-radius: 6px;
+    padding: 6px 6px;
+    display: flex;
+    flex-direction: column;
+    background-color: #282828;
+    font-weight: 500;
+    color: white;
+}
+.wrap_side_bar .element_side_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 15px;
+}
+.wrap_side_bar .line{
+    width: 100%;
+    height: 0.5px;
+    background-color: whitesmoke;
+}
+.element_side_bar i{
+    font-size: 15px;
+}
+.element_side_bar:hover{
+    background-color: #434242;
+    border-radius: 5px;
+}
 .upgrade:hover {
     cursor: pointer;
     transform: scale(1.04);
@@ -224,10 +259,6 @@
 .person:hover {
     cursor: pointer;
     background-color: #252525;
-}
-
-.person:hover .name_account {
-    display: block;
 }
 
 .wrap_icon:hover {

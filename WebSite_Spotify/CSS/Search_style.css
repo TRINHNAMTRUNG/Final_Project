@@ -93,9 +93,14 @@
     color: #803d9fc4;
 }
 
+.menu_side .playlist{
+    display: flex;
+    flex-direction: column;
+}
 .playlist .element_playlist {
     margin-top: 20px;
     letter-spacing: 1px;
+    text-decoration: none;
     color: gray;
     font-size: 14px;
     font-weight: 100;

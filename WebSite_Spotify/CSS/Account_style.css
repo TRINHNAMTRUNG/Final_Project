@@ -411,6 +411,7 @@
 .mh_country a{
     font-size: 10px;
     color: #919496;
+    text-decoration: none;
 }
 .last_footer .mh_link{
     display: flex;
@@ -431,8 +432,6 @@
     font-size: 10px;
     color: #919496;
 }
-.wrap_element_mh_link .element_mh_link:hover{
+.wrap_element_mh_link .element_mh_link:hover,.wrap_element_mh_link .mh_country:hover a{
     color: #1ED760;
 }
-
-

@@ -418,11 +418,12 @@
 .lyrics_title .artist h4,span{
     align-items: center;
     line-height: 20px;
-    color: white;
+    /* color: white; */
     margin-bottom: 5px;
 }
-.lyrics_title .artist:hover span{
+.lyrics_title .artist:hover h3{
     text-decoration: underline;
+    color: white;
     cursor: pointer;
 }
 .lyrics_title .artist:hover {

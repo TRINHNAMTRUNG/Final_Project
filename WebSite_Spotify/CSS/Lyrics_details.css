@@ -379,6 +379,56 @@
 }
 .body_list .lyrics_title {
     background-image: linear-gradient(#4d0b0e, black);
+    width: 100%;
+    color: #FFFFFFB2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.lyrics_title .lyrics h2{
+   margin-bottom: 30px;
+}
+.lyrics_title .lyrics {
+    width: 700px;
+}
+.lyrics_title .lyrics p{
+    color: #c8c2c2;
+    margin-bottom: 50px;
+    line-height: 25px;
+ }
+.lyrics_title .artist{
+    margin-left: 30px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 450px;
+    align-items: center;
+    border-radius: 5px;
+}
+.lyrics_title .artist img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-right: 10px;
+    padding: 5px;
+}
+.lyrics_title .artist h4,span{
+    align-items: center;
+    line-height: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+.lyrics_title .artist:hover span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.lyrics_title .artist:hover {
+    cursor: pointer;
+    background-color: rgba(205, 204, 204, 0.2);
+    border-radius: 5px;
 }
 .body_list .lyrics_title h2,p{
     color: white;
@@ -404,9 +454,16 @@
     column-gap: 16px;
     padding: 10px 0px;
     padding-left: 15px;
-    grid-template-columns: 16px 6fr 4fr 3fr 1.5fr;
+    grid-template-columns: 16px 8fr 7fr 1fr;
     text-decoration: none;
     color: white;
+    
+}
+.list_songs .title_list_songs{
+    margin-bottom: 20px;
+}
+.list_songs .title_list_songs h2,h5{
+    margin-bottom: 10px;
 }
 .element_list .index_songs i{
     color: white;
@@ -417,9 +474,7 @@
     background-color: #434242;
     border-radius: 5px;
 }
-.list_songs .element_list:hover .author_songs {
-    color: white;
-}
+
 .list_songs .element_list:hover .album_songs {
     color: white;
 }
@@ -446,13 +501,6 @@
 .detail_songs .name_songs{
     font-size: 16px;
     color: white;
-}
-.detail_songs .author_songs{
-    font-size: 14px;
-    color: #FFFFFFB2;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 .element_list .album_songs{
     white-space: nowrap;

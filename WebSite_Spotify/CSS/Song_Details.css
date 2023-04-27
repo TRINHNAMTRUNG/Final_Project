@@ -413,6 +413,8 @@
     padding: 10px 0px;
     padding-left: 15px;
     grid-template-columns: 16px 6fr 4fr 3fr 1.5fr;
+    text-decoration: none;
+    color: white;
 }
 .element_list .index_songs i{
     color: white;

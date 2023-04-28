@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1F2A39;
+}
+.container .header{
+    height: 81px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 117px;
+    background-color: black;
+}
+.header .left_header{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.header .right_header{
+    height: 100%;
+    padding-right: 15px;
+}
+.left_header .logo{
+    width: 132px;
+    height: 42px;
+}
+.left_header .logo img{
+    width: 100%;
+    height: 100%;
+}
+.right_header .wrap_right_header{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.wrap_right_header .element_right_header{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 17px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.wrap_right_header .line{
+    width: 1px;
+    height: 18px;
+    margin: 0px 17px;
+    background-color: white;
+}
+.wrap_right_header .element_right_header:last-child{
+    display: flex;
+    column-gap: 15px;
+}
+.wrap_right_header .element_right_header:last-child .icon_user{
+    font-size: 32px;
+}
+.element_right_header:hover,.element_right_header:hover i{
+    cursor: pointer;
+    color: #1ED760;
+}
+.container .download_content{
+    width: 100%;
+    padding: 104px;
+    background-color: #19E68C;
+}
+.download_content .wrap_download_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrap_download_content .img_download{
+    width: 136px;
+    height: 80px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.img_download img{
+    width: 100%;
+    height: 100%;
+}
+.icon_check i{
+    font-size: 30px;
+    color: #19E68C;
+}
+.img_download .icon_check{
+    position: absolute;
+    top: 23px;
+    left: 54px;
+}
+.wrap_download_content .title{
+    font-size: 44px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+.wrap_download_content .describe_title{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+.wrap_download_content .btn_download{
+    padding: 18px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 30px;
+}
+.wrap_download_content .btn_download:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    background-color: #f4f3f3;
+}
+.container .mobile_upsell{
+    width: 100%;
+    padding: 90px;
+    background-color: white;
+}
+.mobile_upsell .wrap_mobile_upsell{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+.wrap_mobile_upsell .title{
+    font-size: 32px;
+    font-weight: 600;
+}
+.wrap_mobile_upsell .describe_title{
+    font-size: 16px;
+    font-weight: 500;
+}
+.mobile_upsell .image_store{
+    display: flex;
+    column-gap: 20px;
+}
+.image_store img{
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+}
+.container .device{
+    width: 100%;
+    padding: 90px;
+    background-color: #222326;
+}
+.device .wrap_device{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+.device .image_device{
+    width: 480px;
+    height: 173px;
+}
+.image_device img{
+    width: 100%;
+    height: 100%;
+}
+.device .name_device{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    color: white;
+}
+.wrap_device .title{
+    font-size: 32px;
+    color: white;
+}
+.name_device .dot{
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+    background-color: #19E68C;
+}
+.name_device a{
+    color: #19E68C;
+}
+
+
+
+
+/* -------------footer-------------- */
+
+.container .footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px 0px 50px;
+    background-color: black;
+}
+.footer .first_footer{
+    width: 100%;
+    height: 346px;
+    display: flex;
+    flex-direction: row;
+}
+.first_footer .log{
+    width: 200px;
+    height: 100%;
+}
+.first_footer .log img{
+    width: 134px;
+    height: 42px;
+}
+.first_footer .contact{
+    height: 100%;
+    display: flex;
+}
+.contact .wrap_contact{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.wrap_contact .title_contact{
+    font-size: 12px;
+    font-weight: 600;
+    color: #919496;
+    margin: 25px 0px;
+}
+.wrap_contact .element_contact{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 18px;
+    text-decoration: none;
+}
+.first_footer .media{
+    margin-left: 150px;
+    display: flex;
+    column-gap: 20px;
+
+}
+.media .wrap_media{
+    width: 50px ;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #222326;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrap_media i{
+    color: white;
+    font-size: 20px;
+}
+.wrap_contact .element_contact:hover{
+    color: #1ED760;
+}
+.wrap_media:hover i{
+    cursor: pointer;
+    color: #1ED760;
+}
+.last_footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+    padding-bottom: 50px;
+}
+.last_footer .mh_country{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+.mh_country a{
+    font-size: 10px;
+    color: #919496;
+    text-decoration: none;
+}
+.last_footer .mh_link{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+.mh_link .wrap_element_mh_link{
+    display: flex;
+    column-gap: 23px;
+    
+}
+.wrap_element_mh_link .element_mh_link{
+    font-size: 10px;
+    color: #919496;
+    text-decoration: none;
+}
+.mh_link h6{
+    font-size: 10px;
+    color: #919496;
+}
+.wrap_element_mh_link .element_mh_link:hover,.wrap_element_mh_link .mh_country:hover a{
+    color: #1ED760;
+}

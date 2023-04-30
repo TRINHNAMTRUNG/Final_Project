@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Podcast_Detail.css">
+    <link rel="stylesheet" href="../Fontawesome_v6/Fontawesome_v6/css/all.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="interface_main">
+            <div class="menu_side">
+                <a class="logo" href="../HTML/Home.html">
+                    <img src="../image_project_spotify/Spotify_Logo_RGB_White.png" alt="">
+                </a>
+                <div class="list_element">
+                    <a class="element_menu" href="../HTML/Home.html">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Home</span>
+                    </a>
+                    <a class="element_menu" href="../HTML/Search.html">
+                        <i class="fa-regular fa-magnifying-glass"></i>
+                        <span>Search</span>
+                    </a>
+                    <a class="element_menu" href="../HTML/Library.html">
+                        <i class="fa-solid fa-books"></i>
+                        <span>Library</span>
+                    </a>
+                </div>
+                <div class="choice">
+                    <div class="element_choice">
+                        <i class="fa-light fa-square-plus"></i>
+                        <span>Create Playlist</span>
+                    </div>
+                    <div class="element_choice">
+                        <i class="fa-solid fa-box-heart"></i>
+                        <span>Link Songs</span>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <a href="../HTML/ListMusic.html" class="element_playlist">My Playlist #3</a>
+                    <a href="../HTML/ListMusic.html" class="element_playlist">My Playlist #2</a>
+                    <a href="../HTML/ListMusic.html" class="element_playlist">My Playlist #1</a>
+                </div>
+                <!-- <div class="choice_download element_down">
+                    <i class="fa-light fa-circle-down"></i>
+                    <span>Install App</span>
+                </div> -->
+            </div>
+            <div class="song_side">
+                <div class="header_song_side">
+
+                    <div class="left_header">
+                        <div class="wrap_icon">
+                            <i class="fa-solid fa-chevron-right fa-rotate-180"></i>
+                        </div>
+                        <div class="wrap_icon">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="right_header">
+                        <div class="upgrade">
+                            Upgrade
+                        </div>
+                        <div class="person" id="user">
+                            <i class="fa-solid fa-circle-user" style="color: #3a67b6;"></i>
+                            <span>Trinh Nam Trung </span>
+                            <i class="fa-sharp fa-solid fa-caret-right fa-rotate-90" id="icon_down"
+                                style="color: #ffffff;"></i>
+                            <div class="name_account" id="account">Trinh Nam Trung</div>
+                            <div class="side_bar" id="menu">
+                                <div class="wrap_side_bar">
+                                    <a class="element_side_bar" href="../HTML/Account.html">
+                                        <span>Account</span>
+                                        <i class="fa-light fa-up-right-from-square"></i>
+                                    </a>
+                                    <a class="element_side_bar">
+                                        <span>Profile</span>
+                                        <i class="fa-light fa-up-right-from-square"></i>
+                                    </a>
+                                    <a href="../HTML/UpgradeAccount.html" class="element_side_bar">
+                                        <span>Upgrade to Premium</span>
+                                        <i class="fa-light fa-up-right-from-square"></i>
+                                    </a>
+                                    <a class="element_side_bar">
+                                        <span>Support</span>
+                                        <i class="fa-light fa-up-right-from-square"></i>
+                                    </a>
+                                    <a class="element_side_bar">
+                                        <span>Download</span>
+                                        <i class="fa-light fa-up-right-from-square"></i>
+                                    </a>
+                                    <a class="element_side_bar">
+                                        <span>Settings</span>
+                                        <i class="fa-light fa-up-right-from-square"></i>
+                                    </a>
+                                    <div class="line"></div>
+                                    <a class="element_side_bar">
+                                        <span>Log out</span>
+                                        <i class="fa-light fa-up-right-from-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="body_song_side">
+                    <div class="background_card">
+                        <div class="image_card">
+                            <img src="../image_project_spotify/Image_Podcasts_11.png" alt="">
+                        </div>
+                        <div class="detail_card">
+                            <h4 class="category">Podcast</h4>
+                            <h1 class="name_Card">Motivation Podcast-Motivational</h1>
+                            <h4 class="describe_card">Motivation Podcast - Motivational Speeches & Inspiring Peptalk For Success. Suitable for gym, fitness.</h4>
+                            <div class="number_songs">
+                                <img src="../image_project_spotify/Image_Profile_Podcast_1.jpeg" alt="" class="Image_profile">
+                                <span id="logo">By Fearless Motivation</span>
+                                <div class="sharp"></div>
+                                <span class="number">35,297 likes</span>
+                                <div class="sharp"></div>
+                                <span class="number">10 Episode</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_songs_card">
+                        <div class="header_list">
+                            <div class="border_button_play">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <div class="three_dot">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <div class="body_list">
+                            <div class="bar_title">
+                                <div class="wrap_bar_title">
+                                    <div class="index">#</div>
+                                    <div class="title">Title</div>
+                                    <div class="album">Album</div>
+                                    <div class="date">Date added</div>
+                                    <div class="time_duration">
+                                        <i class="fa-regular fa-clock"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list_songs">
+                                <a href="../HTML/Lyrics_details.html" class="element_list">
+                                    <div class="index_songs">
+                                        <span>1</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_List_Podcast_1.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                                Your Own Biggest Fan
+                                            </div>
+                                            <div class="author_songs">
+                                               Fearless Motivation
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album_songs">Your Own Biggest Fan</div>
+                                    <div class="date_songs">Sep 11,2021</div>
+                                    <div class="time_duration_songs">3:42</div>
+                                </a>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>2</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_List_Podcast_2.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                                Failure (Motivational Speech)
+                                            </div>
+                                            <div class="author_songs">
+                                                Fearless Motivation
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album_songs"> Failure (Motivational Speech)</div>
+                                    <div class="date_songs">Apr 19,2017</div>
+                                    <div class="time_duration_songs">6:08</div>
+                                </div>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>3</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_List_Podcast_3.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                               Belief Must Come First (Motivational Speech)
+                                            </div>
+                                            <div class="author_songs">
+                                                Fearless Motivation, Tom Bilyeu
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album_songs">A Life Worth Remembering (Motivational Speech)</div>
+                                    <div class="date_songs">Feb 1, 2019</div>
+                                    <div class="time_duration_songs">3:43</div>
+                                </div>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>4</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_List_Podcast_4.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                                Disappear for a Year (Motivational Speech)
+                                            </div>
+                                            <div class="author_songs">
+                                                Fearless Motivation
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album_songs"> Disappear for a Year (Motivational Speech)</div>
+                                    <div class="date_songs">May 29,2022</div>
+                                    <div class="time_duration_songs">5:38</div>
+                                </div>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>5</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_List_Podcast_5.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                              Don't Take This Life for Granted (Motivational Speech)
+                                            </div>
+                                            <div class="author_songs">
+                                                Fearless Soul
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album_songs">Life Is What You Make It (Motivational Speech)</div>
+                                    <div class="date_songs">Nov 6,2020</div>
+                                    <div class="time_duration_songs">4:03</div>
+                                </div>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>6</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_List_Podcast_6.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                              What Can I Do (Motivational Speech)
+                                            </div>
+                                            <div class="author_songs">
+                                                Fearless Motivation
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album_songs"> What Can I Do (Motivational Speech)</div>
+                                    <div class="date_songs">Aug 14,2022</div>
+                                    <div class="time_duration_songs">4:50</div>
+                                </div>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>7</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_List_Podcast_7.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                                Don't You Dare Give Up (Motivational Speech)
+                                            </div>
+                                            <div class="author_songs">
+                                                Fearless Motivation
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album_songs">Don't You Dare Give Up (Motivational Speech)</div>
+                                    <div class="date_songs">Apr 19,2017</div>
+                                    <div class="time_duration_songs">3:17</div>
+                                </div>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>8</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_List_Podcast_8.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                                Life's Tough (Motivational Speech)
+                                            </div>
+                                            <div class="author_songs">
+                                                Fearless Motivation
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album_songs">Today Is the Day: The Greatest Motivational Speech</div>
+                                    <div class="date_songs">Apr 19,2017</div>
+                                    <div class="time_duration_songs">3:43</div>
+                                </div>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>9</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_List_Podcast_9.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                                Can I Do Better (Motivational Speech)
+                                            </div>
+                                            <div class="author_songs">
+                                                Fearless Motivation
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album_songs">Strong Mind Strong Life (Motivational Speech)</div>
+                                    <div class="date_songs">Mar 13, 2023</div>
+                                    <div class="time_duration_songs">3:36</div>
+                                </div>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>10</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_List_Podcast_10.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                               Message from Your Future Self (Motivational Speech)
+                                            </div>
+                                            <div class="author_songs">
+                                                Fearless Motivation
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album_songs">Message from Your Future Self (Motivational Speech)</div>
+                                    <div class="date_songs">Mar 5,2022</div>
+                                    <div class="time_duration_songs">3:33</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_list">
+                    <div class="first_footer">
+                        <div class="contact">
+                            <div class="wrap_contact">
+                                <h4 class="title_contact">
+                                    Company
+                                </h4>
+                                <a href="" class="element_contact">
+                                    About
+                                </a>
+                                <a href="" class="element_contact">
+                                    Jobs
+                                </a>
+                                <a href="" class="element_contact">
+                                    For the Record
+                                </a>
+                            </div>
+                            <div class="wrap_contact">
+                                <h4 class="title_contact">
+                                    Communities
+                                </h4>
+                                <a href="" class="element_contact">
+                                    For Artists
+                                </a>
+                                <a href="" class="element_contact">
+                                    Developers
+                                </a>
+                                <a href="" class="element_contact">
+                                    Advertising
+                                </a>
+                                <a href="" class="element_contact">
+                                    Investors
+                                </a>
+                                <a href="" class="element_contact">
+                                    Vendors
+                                </a>
+                            </div>
+                            <div class="wrap_contact">
+                                <h4 class="title_contact">
+                                    Useful links
+                                </h4>
+                                <a href="" class="element_contact">
+                                    Support
+                                </a>
+                                <a href="" class="element_contact">
+                                    Free Mobile App
+                                </a>
+                            </div>
+                            <div class="media">
+                                <div class="wrap_media">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                                <div class="wrap_media">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                                <div class="wrap_media">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="last_footer">
+                        <div class="link_list">
+                            <div class="wrap_link_list">
+                                <a href="" class="link">
+                                    Legal
+                                </a>
+                                <a href=""  class="link">
+                                    Privacy Center
+                                </a>
+                                <a href=""  class="link">
+                                    Privacy Policy
+                                </a>
+                                <a href=""  class="link">
+                                    Cookies
+                                </a>
+                                <a href=""  class="link">
+                                    About Ads
+                                </a>
+                            </div>
+                        </div>
+                        <span>© 2023 Spotify AB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="master_play"></div>
+    </div>
+    <script src="../JAVASCRIPT/Home.js"></script>
+</body>
+
+</html>

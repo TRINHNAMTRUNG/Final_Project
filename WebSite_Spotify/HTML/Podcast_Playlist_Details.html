@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Podcast_Playlist_Details.css">
+    <link rel="stylesheet" href="../Fontawesome_v6/Fontawesome_v6/css/all.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="interface_main">
+            <div class="menu_side">
+                <a class="logo" href="../HTML/Home.html">
+                    <img src="../image_project_spotify/Spotify_Logo_RGB_White.png" alt="">
+                </a>
+                <div class="list_element">
+                    <a class="element_menu" href="../HTML/Home.html">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Home</span>
+                    </a>
+                    <a class="element_menu" href="../HTML/Search.html">
+                        <i class="fa-regular fa-magnifying-glass"></i>
+                        <span>Search</span>
+                    </a>
+                    <a class="element_menu" href="../HTML/Library.html">
+                        <i class="fa-solid fa-books"></i>
+                        <span>Library</span>
+                    </a>
+                </div>
+                <div class="choice">
+                    <div class="element_choice">
+                        <i class="fa-light fa-square-plus"></i>
+                        <span>Create Playlist</span>
+                    </div>
+                    <div class="element_choice">
+                        <i class="fa-solid fa-box-heart"></i>
+                        <span>Link Songs</span>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <a href="../HTML/ListMusic.html" class="element_playlist">My Playlist #3</a>
+                    <a href="../HTML/ListMusic.html" class="element_playlist">My Playlist #2</a>
+                    <a href="../HTML/ListMusic.html" class="element_playlist">My Playlist #1</a>
+                </div>
+                <!-- <div class="choice_download element_down">
+                    <i class="fa-light fa-circle-down"></i>
+                    <span>Install App</span>
+                </div> -->
+            </div>
+            <div class="song_side">
+                <div class="header_song_side">
+
+                    <div class="left_header">
+                        <div class="wrap_icon">
+                            <i class="fa-solid fa-chevron-right fa-rotate-180"></i>
+                        </div>
+                        <div class="wrap_icon">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="right_header">
+                        <div class="upgrade">
+                            Upgrade
+                        </div>
+                        <div class="person" id="user">
+                            <i class="fa-solid fa-circle-user" style="color: #3a67b6;"></i>
+                            <span>Trinh Nam Trung </span>
+                            <i class="fa-sharp fa-solid fa-caret-right fa-rotate-90" id="icon_down"
+                                style="color: #ffffff;"></i>
+                            <div class="name_account" id="account">Trinh Nam Trung</div>
+                            <div class="side_bar" id="menu">
+                                <div class="wrap_side_bar">
+                                    <a class="element_side_bar" href="../HTML/Account.html">
+                                        <span>Account</span>
+                                        <i class="fa-light fa-up-right-from-square"></i>
+                                    </a>
+                                    <a class="element_side_bar">
+                                        <span>Profile</span>
+                                        <i class="fa-light fa-up-right-from-square"></i>
+                                    </a>
+                                    <a href="../HTML/UpgradeAccount.html" class="element_side_bar">
+                                        <span>Upgrade to Premium</span>
+                                        <i class="fa-light fa-up-right-from-square"></i>
+                                    </a>
+                                    <a class="element_side_bar">
+                                        <span>Support</span>
+                                        <i class="fa-light fa-up-right-from-square"></i>
+                                    </a>
+                                    <a class="element_side_bar">
+                                        <span>Download</span>
+                                        <i class="fa-light fa-up-right-from-square"></i>
+                                    </a>
+                                    <a class="element_side_bar">
+                                        <span>Settings</span>
+                                        <i class="fa-light fa-up-right-from-square"></i>
+                                    </a>
+                                    <div class="line"></div>
+                                    <a class="element_side_bar">
+                                        <span>Log out</span>
+                                        <i class="fa-light fa-up-right-from-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="body_song_side">
+                    <div class="background_card">
+                        <div class="image_card">
+                            <img src="../image_project_spotify/Image_List_Podcast_1.png" alt="">
+                        </div>
+                        <div class="detail_card">
+                            <h4 class="category">Song</h4>
+                            <h1 class="name_Card">Your Own Biggest Fan</h1>
+                            <div class="number_songs">
+                                <img src="../image_project_spotify/Image_Profile_Podcast.jpeg" alt="">
+                                <a href="">Fearless Motivation</a>
+                                <div class="sharp"></div>
+                                <span class="number">2021</span>
+                                <div class="sharp"></div>
+                                <span class="number">3:42</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_songs_card">
+                        <div class="header_list">
+                            <div class="border_button_play">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <div class="three_dot">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <div class="body_list">
+                           <div class="lyrics_title">
+                                 <div class="artist">
+                                    <img src="../image_project_spotify/Image_Profile_Podcast.jpeg" alt="">
+                                    <div class="artist_detail">
+                                        <h4>Artist</h4>
+                                        <h3>Fearless Motivation</h3>
+                                    </div>
+                                 </div>
+
+                           </div>
+                            <div class="list_songs">
+                                <div class="title_list_songs">
+                                    <h5>Popular Tracks by</h5>
+                                    <h2>Fearless Motivation</h2>
+                                </div>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>1</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_Podcast_Playlist_Details_1.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                               Remember Why You Started
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                 
+                                    <div class="amount of listening">5,451,901</div>
+                                    <div class="time_duration_songs">2:53</div>
+                                </div>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>2</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_Podcast_Playlist_Details_2.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                               Struggle Made Me Stronger
+                                            </div>
+                                        </div>
+                                    </div>
+                                 
+                                    <div class="amount of listening">18,839,514</div>
+                                    <div class="time_duration_songs">2:53</div>
+                                </div>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>3</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_Podcast_Playlist_Details_3.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                                Discipline (Motivational Speech)
+                                            </div>
+                                        </div>
+                                    </div>
+                                 
+                                    <div class="amount of listening">5,451,901</div>
+                                    <div class="time_duration_songs">2:53</div>
+                                </div>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>4</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_Podcast_Playlist_Details_4.pngs" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                               I Didn't Come This Far To Only Come This Far(The Journey)
+                                            </div>
+                                        </div>
+                                    </div>
+                                 
+                                    <div class="amount of listening">5,451,901</div>
+                                    <div class="time_duration_songs">2:53</div>
+                                </div>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>5</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_Podcast_Playlist_Details_5.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                              Watch Me Bleed (William Wallace Version)
+                                            </div>
+                                        </div>
+                                    </div>
+                                 
+                                    <div class="amount of listening">5,451,901</div>
+                                    <div class="time_duration_songs">2:53</div>
+                                </div>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>6</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_Podcast_Playlist_Details_6.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                               Go Hunt Your Dream
+                                            </div>
+                                        </div>
+                                    </div>
+                                 
+                                    <div class="amount of listening">5,451,901</div>
+                                    <div class="time_duration_songs">2:53</div>
+                                </div>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>7</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_Podcast_Playlist_Details_2.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                                When You Feel Like Quiting (Motivational Speech)
+                                            
+                                            </div>
+                                        </div>
+                                    </div>
+                                 
+                                    <div class="amount of listening">5,451,901</div>
+                                    <div class="time_duration_songs">2:53</div>
+                                </div>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>8</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_Podcast_Playlist_Details_5.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                                Keep Showing Up (Motivational Speech)
+                                            </div>
+                                        </div>
+                                    </div>
+                                 
+                                    <div class="amount of listening">5,451,901</div>
+                                    <div class="time_duration_songs">2:53</div>
+                                </div>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>9</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_Podcast_Playlist_Details_3.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                                Blessed
+                                            </div>
+                                        </div>
+                                    </div>
+                                 
+                                    <div class="amount of listening">5,451,901</div>
+                                    <div class="time_duration_songs">2:53</div>
+                                </div>
+                                <div class="element_list">
+                                    <div class="index_songs">
+                                        <span>10</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="title_songs">
+                                        <div class="image_songs">
+                                            <img src="../image_project_spotify/Image_Podcast_Playlist_Details_6.png" alt="">
+                                        </div>
+                                        <div class="detail_songs">
+                                            <div class="name_songs">
+                                              Dig Deeper (Motivational Speech)
+                                            </div>
+                                        </div>
+                                    </div>
+                                 
+                                    <div class="amount of listening">5,451,901</div>
+                                    <div class="time_duration_songs">2:53</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_mp3">
+                        <div class="wrap_title_list">
+                            <h1 class="title_list">Popular Releases by RPT MCK</h1>
+                            <h5 class="pp">SHOW ALL</h5>
+                        </div>
+
+                        <div class="wrap_element_list">
+                            <div class="element_list">
+                                <div class="poster">
+                                    <img src="../image_project_spotify/Image_Podcast_Playlist_Details_1.png" alt="">
+                                    <div class="border_button_play">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="author_detail">
+                                    <div class="author">
+                                        <h4>Strong Alone</h4>
+                                    </div>
+                                    <div class="author_name_song"> <a href="">2023</a>
+                                        <div class="sharp"></div>
+                                        <span class="number">Album</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="element_list">
+                                <div class="poster">
+                                    <img src="../image_project_spotify/Image_Podcast_Playlist_Details_2.png" alt="">
+                                    <div class="border_button_play">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="author_detail">
+                                    <div class="author">
+                                        <h4>Dare To Be Different</h4>
+                                    </div>
+                                    <div class="author_name_song"> <a href="">2021</a>
+                                        <div class="sharp"></div>
+                                        <span class="number">Album</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="element_list">
+                                <div class="poster">
+                                    <img src="../image_project_spotify/Image_Podcast_Playlist_Details_3.png" alt="">
+                                    <div class="border_button_play">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="author_detail">
+                                    <div class="author">
+                                        <h4>Freedom</h4>
+                                    </div>
+                                    <div class="author_name_song"> <a href="">2021</a>
+                                        <div class="sharp"></div>
+                                        <span class="number">Album</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="element_list">
+                                <div class="poster">
+                                    <img src="../image_project_spotify/Image_Podcast_Playlist_Details_4.png" alt="">
+                                    <div class="border_button_play">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="author_detail">
+                                    <div class="author">
+                                        <h4>iceman</h4>
+                                    </div>
+                                    <div class="author_name_song"> <a href="">2021</a>
+                                        <div class="sharp"></div>
+                                        <span class="number">Single</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="element_list">
+                                <div class="poster">
+                                    <img src="../image_project_spotify/Image_Podcast_Playlist_Details_5.png" alt="">
+                                    <div class="border_button_play">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="author_detail">
+                                    <div class="author">
+                                        <h4>Upgrade Your Mind</h4>
+                                    </div>
+                                    <div class="author_name_song"> <a href="">2020</a>
+                                        <div class="sharp"></div>
+                                        <span class="number">Album</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_list">
+                    <div class="first_footer">
+                        <div class="contact">
+                            <div class="wrap_contact">
+                                <h4 class="title_contact">
+                                    Company
+                                </h4>
+                                <a href="" class="element_contact">
+                                    About
+                                </a>
+                                <a href="" class="element_contact">
+                                    Jobs
+                                </a>
+                                <a href="" class="element_contact">
+                                    For the Record
+                                </a>
+                            </div>
+                            <div class="wrap_contact">
+                                <h4 class="title_contact">
+                                    Communities
+                                </h4>
+                                <a href="" class="element_contact">
+                                    For Artists
+                                </a>
+                                <a href="" class="element_contact">
+                                    Developers
+                                </a>
+                                <a href="" class="element_contact">
+                                    Advertising
+                                </a>
+                                <a href="" class="element_contact">
+                                    Investors
+                                </a>
+                                <a href="" class="element_contact">
+                                    Vendors
+                                </a>
+                            </div>
+                            <div class="wrap_contact">
+                                <h4 class="title_contact">
+                                    Useful links
+                                </h4>
+                                <a href="" class="element_contact">
+                                    Support
+                                </a>
+                                <a href="" class="element_contact">
+                                    Free Mobile App
+                                </a>
+                            </div>
+                            <div class="media">
+                                <div class="wrap_media">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                                <div class="wrap_media">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                                <div class="wrap_media">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="last_footer">
+                        <div class="link_list">
+                            <div class="wrap_link_list">
+                                <a href="" class="link">
+                                    Legal
+                                </a>
+                                <a href=""  class="link">
+                                    Privacy Center
+                                </a>
+                                <a href=""  class="link">
+                                    Privacy Policy
+                                </a>
+                                <a href=""  class="link">
+                                    Cookies
+                                </a>
+                                <a href=""  class="link">
+                                    About Ads
+                                </a>
+                            </div>
+                        </div>
+                        <span>© 2023 Spotify AB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="master_play"></div>
+    </div>
+    <script src="../JAVASCRIPT/Home.js"></script>
+</body>
+
+</html>

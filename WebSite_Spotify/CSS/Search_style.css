@@ -212,6 +212,7 @@
     font-size: 14px;
     font-weight: 700;
     transition-duration: 0.3s;
+    text-decoration: none;
 }
 
 .right_header .person {
@@ -246,7 +247,7 @@
 .person .side_bar{
     position: absolute;
     left: -20px;
-    bottom: -329px;
+    bottom: -285px;
     width: 212px;
     display: none;
 }

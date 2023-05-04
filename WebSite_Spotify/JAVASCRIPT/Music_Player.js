@@ -46,6 +46,62 @@ const music_list = [
         album: 'Walkerverse PT. I & II',
         duration: '02:58',
         music: '../song/Play-Alone-Darkside-Ignite.mp3'
+    },
+    {
+        img: '../img/drum.jpg',
+        name: 'The Drum',
+        artist: 'Alan Walker',
+        album: 'The Drum',
+        duration: '03:09',
+        music: '../song/Alan Walker-Drum.mp3'
+    },
+    {
+        img: '../img/headlights.png',
+        name: 'Headlights (feat. KIDDO)',
+        artist: 'Alok, Alan Walker, KIDDO',
+        album: 'Headlights (feat. KIDDO)',
+        duration: '02:38',
+        music: '../song/Alan Walker-Headlights.mp3'
+    },
+    {
+        img: '../img/helloWorld.png',
+        name: 'Hello World',
+        artist: 'Alan Walker, Torine',
+        album: 'Hello World',
+        duration: '02:51',
+        music: '../song/Alan Walker-Hello World.mp3'
+    },
+    {
+        img: '../img/loveSick.jpg',
+        name: 'Lovesick',
+        artist: 'Alan Walker, Sophie Simmons',
+        album: 'Walkerverse Pt. I & II',
+        duration: '02:09',
+        music: '../song/Alan Walker-Lovesick.mp3'
+    },
+    {
+        img: '../img/onMyWay.jpg',
+        name: 'On My Way',
+        artist: 'Alan Walker, Sabrina Carpenter, Farruko',
+        album: 'On My Way',
+        duration: '03:13',
+        music: '../song/Alan Walker-On My Way.mp3'
+    },
+    {
+        img: '../img/play.jpg',
+        name: 'Play',
+        artist: 'K-391, Alan Walker, Tungevaag, Mangoo',
+        album: 'Play',
+        duration: '02:47',
+        music: '../song/Alan Walker-Play.mp3'
+    },
+    {
+        img: '../img/ritual.jpg',
+        name: 'Ritual',
+        artist: 'Alan Walker, Ava Max',
+        album: 'Alone, PT. II',
+        duration: '02:25',
+        music: '../song/Alan Walker-Ritual.mp3'
     }
 ]
 let active = true;
@@ -60,7 +116,8 @@ function chooseTrack(valueIndex){
     });
     elements[valueIndex].classList.add("selected");
     nameSong[valueIndex].style.color = "#1ED760";
-    loadTrack(valueIndex);
+    track_index = valueIndex;
+    loadTrack(track_index);
     playTrack();
 }
 
@@ -164,9 +221,10 @@ function nextTrack(){
     }else{
         track_index = 0;
     }
-    chooseTrack(track_index);
+    
     loadTrack(track_index);
     playTrack();
+    chooseTrack(track_index);
 }
 function prevTrack(){
     if (track_index > 0){

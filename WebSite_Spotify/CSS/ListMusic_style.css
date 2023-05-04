@@ -497,6 +497,9 @@
 .detail_songs .name_songs {
     font-size: 16px;
     color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .detail_songs .author_songs {
@@ -640,9 +643,39 @@
 
 .wrap_master_play .detail_song {
     height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 17px;
+}
+
+.wrap_detail .wrap_author{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    justify-content: center;
+}
+
+.detail_song .wrap_detail{
+    height: 100%;
     display: flex;
     align-items: center;
-    column-gap: 10px;
+    column-gap: 15px;
+}
+
+.wrap_author .track-name{
+    font-size: 16px;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.wrap_author .track-artist{
+    font-size: 13px;
+    color: #FFFFFFB2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .detail_song .track-art {
@@ -756,7 +789,7 @@
 
 /* -----------Wave------------------- */
 
-.wraper .wrap_wave{
+.wrap_wave{
     height: 100%;
     display: flex;
     justify-content: center;
@@ -786,27 +819,27 @@
         height: 100%;
     }
 }
-.stroke:nth-child(1){
+.wave .stroke:nth-child(1){
     animation-delay: 0s;
 }
-.stroke:nth-child(2){
+.wave .stroke:nth-child(2){
     animation-delay: 0.3s;
 }
-.stroke:nth-child(3){
+.wave .stroke:nth-child(3){
     animation-delay: 0.6s;
 }
-.stroke:nth-child(4){
+.wave .stroke:nth-child(4){
     animation-delay: 0.9s;
 }
-.stroke:nth-child(5){
+.wave .stroke:nth-child(5){
     animation-delay: 0.6s;
 }
-.stroke:nth-child(6){
+.wave .stroke:nth-child(6){
     animation-delay: 0.3s;
 }
-.stroke:nth-child(7){
+.wave .stroke:nth-child(7){
     animation-delay: 0s;
 }
-.playpause-track{
+.wave .playpause-track{
     font-size: 45px;
 }

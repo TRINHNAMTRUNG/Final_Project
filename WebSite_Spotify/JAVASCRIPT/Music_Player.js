@@ -1,10 +1,10 @@
-let now_playing = document.querySelector('.now-playing');
+
 let track_art = document.querySelector('.track-art');
 let track_name = document.querySelector('.track-name');
 let track_artist = document.querySelector('.track-artist');
-let artist_song_list = document.querySelectorAll('image_songs');
 
-let playpause_btn_big = document.querySelector('.border_button_play');
+let listSongs = document.querySelector('.list_songs');
+let playpause_btn_big = document.querySelector('.play_Track');
 let playpause_btn = document.querySelector('.playpause-track');
 let next_btn = document.querySelector('.next-track');
 let prev_btn = document.querySelector('.prev-track');
@@ -22,7 +22,8 @@ let isPlaying = false;
 let isRandom = false;
 let updateTimer;
 
-const music_list = [
+
+let music_list = [
     {
         img: '../img/spectre.jpg',
         name: 'The Spectre',
@@ -103,10 +104,10 @@ const music_list = [
         duration: '02:25',
         music: '../song/Alan Walker-Ritual.mp3'
     }
-]
-let active = true;
+];
+
 function chooseTrack(valueIndex) {
-    const elements = document.querySelectorAll(".element_list");
+    const elements = listSongs.querySelectorAll(".element_list");
     const nameSong = document.querySelectorAll(".name_songs");
     elements.forEach((el) => {
         el.classList.remove("selected");
@@ -151,7 +152,8 @@ function loadInforSong() {
         `
     }
     var new_list = music_list.map(render);
-    document.querySelector('.list_songs').innerHTML = new_list.join('');
+    
+    listSongs.innerHTML = new_list.join('');
 }
 
 loadTrack(track_index);
@@ -200,7 +202,7 @@ function playTrack() {
     curr_track.play();
     isPlaying = true;
 
-    
+
     wave.forEach(function (element) {
         element.classList.add('loader');
     });
